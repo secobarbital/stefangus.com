@@ -452,6 +452,7 @@ nav ul:last-child {
 
 #thumbnails figure {
   float: left;
+  margin-right: 1em;
 }
 
 #thumbnails figcaption {
