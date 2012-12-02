@@ -1,15 +1,64 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Stefan Gustafsson - Interface Design - Mobile &amp; Web</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Stefan Gustafsson - Interface Design - Mobile &amp; Web</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <article class="container" itemscope itemtype="http://schema.org/Person">
+      <header>
+        <span itemprop="name">Stefan Gustafsson</span>
+        <a href="/about">About</a>
+        <a href="/resume">Resume</a>
+      </header>
+      <section class="carousel-container">
+        <div class="carousel">
+          <ul class="panes">
+            <li>
+              <h2>Pane 01 title</h2>
+              <img src="img/carousel1.png" alt="">
+            </li>
+            <li>
+              <h2>Pane 02 title</h2>
+              <img src="img/carousel1.png" alt="">
+            </li>
+            <li>
+              <h2>Pane 03 title</h2>
+              <img src="img/carousel1.png" alt="">
+            </li>
+            <li>
+              <h2>Pane 04 title</h2>
+              <img src="img/carousel1.png" alt="">
+            </li>
+            <li>
+              <h2>Pane 05 title</h2>
+              <img src="img/carousel1.png" alt="">
+            </li>
+          </ul>
+        </div>
+      </section>
+      <footer>
+        <p>Clients</p>
+        <img src="img/clients.png" alt="clients">
+        <section class="contact">
+          <a href="mailto:stefan@stefangus.com"><span itemprop="email">stefan@stefangus.com</span></a>
+          <a href="tel:+15103060078"><span itemprop="telephone">510.306.0078</span></a>
+          <link href="http://stefangus.com/" itemprop="url">
+          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <meta itemprop="addressLocality" content="Oakland">
+            <meta itemprop="addressRegion" content="CA">
+            <meta itemprop="addressCountry" content="United States">
+          </span>
+          <a class="blog" href="/blog">Blog</a>
+          <a class="linkedin" href="http://www.linkedin.com/in/stefangus"><img src="img/linkedin.jpg" alt="LinkedIn"></a>
+          <a class="twitter" href="http://twitter.com/"><img src="img/twitter.jpg" alt="Twitter"></a>
+        </section>
+      </footer>
+    </article>
+  </body>
 </html>
