@@ -94,17 +94,18 @@ textarea {
    ========================================================================== */
 
 body {
-  min-width: 960px;
+  color: #686868;
 }
 
-.container {
-  width: 960px;
+.content {
   margin-left: auto;
   margin-right: auto;
+  width: 960px;
 }
 
-.carousel-container {
-  padding: 5% 5%;
+.content h1, .content h1 small {
+  font-weight: normal;
+  padding: 0 1em;
 }
 
 .panes {
@@ -112,20 +113,30 @@ body {
   padding: 0;
 }
 
-header, footer {
-  background-color: #e0e0e0;
-  text-transform: uppercase;
+.clients {
+  text-align: center;
 }
 
 .contact {
   line-height: 32px;
 }
 
+header, footer {
+  background-color: #e0e0e0;
+  background-repeat: repeat-x;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
 footer span[itemprop="email"] {
   text-transform: none;
 }
 
-a.linkedin, a.twitter {
+header a, header span, footer a, footer span {
+  padding: 0 1em;
+}
+
+a.about, a.resume, a.linkedin, a.twitter {
   float: right;
 }
 
