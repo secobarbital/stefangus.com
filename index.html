@@ -8,12 +8,6 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <script>
-      var _gaq=[['_setAccount','UA-36724450-1'],['_trackPageview']];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-      s.parentNode.insertBefore(g,s)}(document,'script'));
-    </script>
   </head>
   <body>
     <article itemscope itemtype="http://schema.org/Person">
@@ -26,30 +20,23 @@
       </header>
       <section class="content">
         <h1>Interface Design <small>mobile + web</small></h1>
-        <div class="carousel">
-          <ul class="panes">
-            <li>
-              <h2>Pane 01 title</h2>
-              <img src="img/carousel1.png" alt="">
-            </li>
-            <li>
-              <h2>Pane 02 title</h2>
-              <img src="img/carousel1.png" alt="">
-            </li>
-            <li>
-              <h2>Pane 03 title</h2>
-              <img src="img/carousel1.png" alt="">
-            </li>
-            <li>
-              <h2>Pane 04 title</h2>
-              <img src="img/carousel1.png" alt="">
-            </li>
-            <li>
-              <h2>Pane 05 title</h2>
-              <img src="img/carousel1.png" alt="">
-            </li>
-          </ul>
-        </div>
+        <ul class="slider">
+          <li>
+            <img src="img/carousel1.png" alt="carousel1">
+          </li>
+          <li>
+            <img src="img/carousel1.png" alt="carusel2">
+          </li>
+          <li>
+            <img src="img/carousel1.png" alt="carousel3">
+          </li>
+          <li>
+            <img src="img/carousel1.png" alt="carousel4">
+          </li>
+          <li>
+            <img src="img/carousel1.png" alt="carousel5">
+          </li>
+        </ul>
       </section>
       <footer>
         <div class="content">
@@ -74,5 +61,15 @@
         </div>
       </footer>
     </article>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      var _gaq=[['_setAccount','UA-36724450-1'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
   </body>
 </html>
