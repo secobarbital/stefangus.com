@@ -329,6 +329,13 @@ a.about, a.resume, a.linkedin, a.twitter {
 	padding: 10px;
 }
 
+/* bxSlider overrides */
+.bx-wrapper .bx-viewport {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
