@@ -104,41 +104,93 @@ body {
   width: 960px;
 }
 
-.content h1, .content h1 small {
-  font-weight: normal;
-  padding: 0 1em;
+#slider {
+  margin: 87px 62px;
 }
 
-.slider {
+#slider ul {
   display: none;
 }
 
 .clients {
-  text-align: center;
-}
-
-.contact {
-  line-height: 32px;
+  height: 86px;
+  margin-top: 20px;
+  width: 960px;
 }
 
 header, footer {
-  background-color: #e0e0e0;
-  background-repeat: repeat-x;
   font-family: 'Montserrat', sans-serif;
-  padding: 1em;
   text-transform: uppercase;
+}
+
+header {
+  color: #abdcdb;
+  background-color: #2ea7a4;
+  line-height: 42px;
+}
+
+footer {
+  background-color: #e0e0e0;
+  color: #666666;
+  font-size: 16px;
+  line-height: 16px;
+  border-bottom: 15px solid #b9b9b9;
+}
+
+footer a {
+  color: #666666;
+  margin-right: 30px;
+  text-decoration: none;
 }
 
 footer span[itemprop="email"] {
   text-transform: none;
 }
 
-header a, header span, footer a, footer span {
-  padding: 0 1em;
+.contact {
+  line-height: 55px;
 }
 
-a.about, a.resume, a.linkedin, a.twitter {
+.blog {
+  font-size: 14px;
+}
+
+footer hr {
+  margin: 18px 0 0 0;
+}
+
+h1 {
+  display: inline;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 70px;
+  font-weight: 200;
+  line-height: 93px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 200;
+  line-height: 35px;
+  margin: 0;
+}
+
+a.resume, a.linkedin, a.twitter {
   float: right;
+}
+
+header a {
+  color: #abdcdb;
+  font-size: 14px;
+  padding: 0 14px;
+  text-decoration: none;
+}
+
+a.resume:hover {
+  background-color: #27928f;
 }
 
 .linkedin img, .twitter img {

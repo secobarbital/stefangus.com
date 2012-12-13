@@ -1,5 +1,5 @@
 $(function() {
-  $('.slider').bxSlider({
+  $('#slider ul').bxSlider({
     auto: true
   }).show();
 });
