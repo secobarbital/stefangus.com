@@ -105,11 +105,54 @@ body {
 }
 
 #slider {
-  margin: 87px 62px;
+  margin: 43px 62px;
 }
 
 #slider ul {
   display: none;
+}
+
+#slider img.slide {
+  height: 420px;
+  width: 600px;
+}
+
+#slider img.nextag-logo {
+  height: 49px;
+  width: 170px;
+}
+
+#slider img.wc-logo {
+  height: 75px;
+  width: 200px;
+}
+
+#slider img.wize-logo {
+  height: 49px;
+  width: 170px;
+}
+
+#slider img {
+  display: inline;
+}
+
+#slider p {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  margin: 10px 0 0 0;
 }
 
 .clients {
@@ -180,6 +223,8 @@ h3 {
 
 a.resume, a.linkedin, a.twitter {
   float: right;
+  margin-left: 10px;
+  margin-right: 0;
 }
 
 header a {
@@ -393,6 +438,14 @@ a.resume:hover {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+
+.bx-wrapper .bx-prev {
+  left: -32px;
+}
+
+.bx-wrapper .bx-next {
+  right: -32px;
 }
 
 /* ==========================================================================
