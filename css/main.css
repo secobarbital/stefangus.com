@@ -95,6 +95,7 @@ textarea {
 
 body {
   color: #686868;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .content {
@@ -123,6 +124,7 @@ body {
 header, footer {
   background-color: #e0e0e0;
   background-repeat: repeat-x;
+  font-family: 'Montserrat', sans-serif;
   padding: 1em;
   text-transform: uppercase;
 }
