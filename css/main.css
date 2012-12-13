@@ -139,6 +139,11 @@ a.about, a.resume, a.linkedin, a.twitter {
   float: right;
 }
 
+.linkedin img, .twitter img {
+  height: 27px;
+  width: 27px;
+}
+
 /* https://raw.github.com/wandoledzep/bxslider-4/e46c0f1cfa28d3b1e60255fa211f3ec824e61add/jquery.bxslider.css */
 
 /**
