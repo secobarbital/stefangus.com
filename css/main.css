@@ -225,6 +225,10 @@ a.resume, a.linkedin, a.twitter {
   margin-right: 0;
 }
 
+i.sprite {
+  display: block;
+}
+
 header a {
   color: #abdcdb;
   font-size: 14px;
@@ -236,10 +240,42 @@ a.resume:hover {
   background-color: #27928f;
 }
 
-.linkedin img, .twitter img {
-  height: 27px;
-  width: 27px;
+.sprite-arrow-left {
+    width: 31px;
+    height: 51px;
+    background: url(images/sprite.png) no-repeat;
+    background-position: -0px -0px;
 }
+
+.sprite-arrow-right {
+    width: 30px;
+    height: 51px;
+    background: url(images/sprite.png) no-repeat;
+    background-position: -42px -0px;
+}
+
+.sprite-linkedin {
+    width: 27px;
+    height: 27px;
+    background: url(images/sprite.png) no-repeat;
+    background-position: -83px -38px;
+}
+
+.sprite-linkedin:hover {
+    background-position: -83px -0px;
+}
+
+.sprite-twitter {
+    width: 27px;
+    height: 27px;
+    background: url(images/sprite.png) no-repeat;
+    background-position: -38px -62px;
+}
+
+.sprite-twitter:hover {
+    background-position: -0px -62px;
+}
+
 
 /* https://raw.github.com/wandoledzep/bxslider-4/e46c0f1cfa28d3b1e60255fa211f3ec824e61add/jquery.bxslider.css */
 
