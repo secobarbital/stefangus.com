@@ -105,7 +105,7 @@ body {
 }
 
 #slider {
-  margin: 43px 62px;
+  margin: 43px 57px;
 }
 
 #slider ul {
@@ -150,7 +150,7 @@ h4 {
 }
 
 .spacer {
-  margin: 0 16px;
+  margin: 0 40px;
 }
 
 .clients {
@@ -167,6 +167,7 @@ header, footer {
 header {
   color: #abdcdb;
   background-color: #2ea7a4;
+  letter-spacing: 2px;
   line-height: 42px;
 }
 
@@ -203,20 +204,22 @@ footer hr {
 h1 {
   display: inline;
   font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 4px;
 }
 
 h2 {
   font-size: 70px;
   font-weight: 200;
   line-height: 93px;
-  margin: 0;
+  margin: 20px 0 0 0;
 }
 
 h3 {
   font-size: 26px;
   font-weight: 200;
   line-height: 35px;
-  margin: 0;
+  margin: 5px 0 0 0;
 }
 
 a.resume, a.linkedin, a.twitter {
@@ -474,12 +477,41 @@ a.resume:hover {
   box-shadow: none;
 }
 
-.bx-wrapper .bx-prev {
-  left: -32px;
+.bx-wrapper a.bx-prev {
+	left: -31px;
+  width: 31px;
+  height: 51px;
+  background: url(images/sprite.png) no-repeat;
+  background-position: -0px -0px;
 }
 
-.bx-wrapper .bx-next {
-  right: -32px;
+.bx-wrapper a.bx-next {
+  right: -30px;
+  width: 30px;
+  height: 51px;
+  background: url(images/sprite.png) no-repeat;
+  background-position: -42px -0px;
+}
+
+.bx-wrapper .bx-prev:hover {
+  background-position: -0px -0px;
+}
+
+.bx-wrapper .bx-next:hover {
+  background-position: -42px -0px;
+}
+
+.bx-wrapper .bx-controls-direction a {
+	margin-top: -25px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #CCC;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #999;
 }
 
 /* ==========================================================================
