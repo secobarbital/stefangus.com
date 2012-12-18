@@ -112,6 +112,10 @@ body {
   display: none;
 }
 
+#slider img {
+  display: inline;
+}
+
 #slider img.slide {
   height: 420px;
   width: 600px;
@@ -130,10 +134,6 @@ body {
 #slider img.wize-logo {
   height: 49px;
   width: 170px;
-}
-
-#slider img {
-  display: inline;
 }
 
 #slider p {
