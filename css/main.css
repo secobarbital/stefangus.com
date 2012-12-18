@@ -231,6 +231,9 @@ h3 {
 
 a.resume, a.linkedin, a.twitter {
   float: right;
+}
+
+a.linkedin, a.twitter {
   margin: 15px 0 0 10px
 }
 
