@@ -252,42 +252,27 @@ a.resume:hover {
   background-color: #27928f;
 }
 
-.sprite-arrow-left {
-    width: 31px;
-    height: 51px;
-    background: url(images/sprite.png) no-repeat;
-    background-position: -0px -0px;
-}
+.sprite-linkedin, .sprite-twitter {
+  background: url(images/sprite.png) no-repeat;
+  height: 27px;
+  width: 27px;
 
-.sprite-arrow-right {
-    width: 30px;
-    height: 51px;
-    background: url(images/sprite.png) no-repeat;
-    background-position: -42px -0px;
 }
-
 .sprite-linkedin {
-    width: 27px;
-    height: 27px;
-    background: url(images/sprite.png) no-repeat;
-    background-position: -83px -38px;
+  background-position: -84px -38px;
 }
 
 .sprite-linkedin:hover {
-    background-position: -83px -0px;
+  background-position: -84px -0px;
 }
 
 .sprite-twitter {
-    width: 27px;
-    height: 27px;
-    background: url(images/sprite.png) no-repeat;
-    background-position: -38px -62px;
+  background-position: -38px -62px;
 }
 
 .sprite-twitter:hover {
-    background-position: -0px -62px;
+  background-position: -0px -62px;
 }
-
 
 /* https://raw.github.com/wandoledzep/bxslider-4/e46c0f1cfa28d3b1e60255fa211f3ec824e61add/jquery.bxslider.css */
 
@@ -486,32 +471,20 @@ a.resume:hover {
   box-shadow: none;
 }
 
-.bx-wrapper a.bx-prev {
+.bx-wrapper a.bx-prev, .bx-wrapper a.bx-prev:hover {
 	left: -31px;
-  width: 31px;
-  height: 51px;
-  background: url(images/sprite.png) no-repeat;
-  background-position: -0px -0px;
+  background: url(images/sprite.png) no-repeat -42px -0px;
 }
 
-.bx-wrapper a.bx-next {
-  right: -30px;
-  width: 30px;
-  height: 51px;
-  background: url(images/sprite.png) no-repeat;
-  background-position: -42px -0px;
-}
-
-.bx-wrapper .bx-prev:hover {
-  background-position: -0px -0px;
-}
-
-.bx-wrapper .bx-next:hover {
-  background-position: -42px -0px;
+.bx-wrapper a.bx-next, .bx-wrapper a.bx-next:hover {
+  right: -31px;
+  background: url(images/sprite.png) no-repeat -0px -0px;
 }
 
 .bx-wrapper .bx-controls-direction a {
 	margin-top: -25px;
+  width: 31px;
+  height: 51px;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
