@@ -472,13 +472,15 @@ a.resume:hover {
 }
 
 .bx-wrapper a.bx-prev, .bx-wrapper a.bx-prev:hover {
-	left: -31px;
   background: url(images/sprite.png) no-repeat -42px -0px;
+  display: none;
+	left: -57px;
 }
 
 .bx-wrapper a.bx-next, .bx-wrapper a.bx-next:hover {
-  right: -31px;
   background: url(images/sprite.png) no-repeat -0px -0px;
+  display: none;
+  right: -57px;
 }
 
 .bx-wrapper .bx-controls-direction a {
