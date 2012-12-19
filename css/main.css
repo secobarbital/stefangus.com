@@ -196,7 +196,12 @@ footer span[itemprop="email"] {
   text-transform: none;
 }
 
-.contact {
+.head-contact {
+  display: inline;
+  margin: 0 0 0 190px;
+}
+
+footer .contact {
   line-height: 55px;
 }
 
@@ -220,6 +225,14 @@ h2 {
   font-weight: 200;
   line-height: 93px;
   margin: 20px 0 0 0;
+}
+
+body.resume h2 {
+  display: inline;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 95px;
 }
 
 h3 {
@@ -248,7 +261,7 @@ header a {
   text-decoration: none;
 }
 
-a.resume:hover {
+a.resume.active, a.resume:hover {
   background-color: #27928f;
 }
 
