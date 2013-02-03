@@ -136,18 +136,19 @@ body {
   width: 98px;
 }
 
-#slider p {
+#slider h5, #slider p {
   font-size: 14px;
+  font-weight: normal;
   line-height: 17px;
   margin: 10px 0 0 0;
 }
 
-.slider-left {
+.slider-image {
   float: left;
   width: 600px;
 }
 
-.slider-right {
+.slider-caption {
   float: left;
   margin: 56px 6px 0 40px;
   width: 200px;
