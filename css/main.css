@@ -279,8 +279,7 @@ a.resume:hover {
   background-position: -0px -62px;
 }
 
-/* https://raw.github.com/wandoledzep/bxslider-4/e46c0f1cfa28d3b1e60255fa211f3ec824e61add/jquery.bxslider.css */
-
+/* https://raw.github.com/wandoledzep/bxslider-4/2b041bdb75435820e0ddd955c110b5b62677c501/jquery.bxslider.css */
 /**
  * BxSlider v4.0 - Fully loaded, responsive content slider
  * http://bxslider.com
@@ -332,7 +331,13 @@ a.resume:hover {
 
 .bx-wrapper .bx-loading {
 	min-height: 50px;
-	background: url(images/bx_loader.gif) center center no-repeat;
+	background: url(images/bx_loader.gif) center center no-repeat #fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
 }
 
 /* PAGER */
@@ -360,6 +365,7 @@ a.resume:hover {
 	width: 10px;
 	height: 10px;
 	margin: 0 5px;
+	outline: 0;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
@@ -394,6 +400,7 @@ a.resume:hover {
 	position: absolute;
 	top: 50%;
 	margin-top: -16px;
+	outline: 0;
 	width: 32px;
 	height: 32px;
 	text-indent: -9999px;
@@ -415,6 +422,7 @@ a.resume:hover {
 	text-indent: -9999px;
 	width: 10px;
 	height: 11px;
+	outline: 0;
 	background: url(images/controls.png) -86px -11px no-repeat;
 	margin: 0 3px;
 }
@@ -429,6 +437,7 @@ a.resume:hover {
 	text-indent: -9999px;
 	width: 9px;
 	height: 11px;
+	outline: 0;
 	background: url(images/controls.png) -86px -44px no-repeat;
 	margin: 0 3px;
 }
