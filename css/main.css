@@ -110,6 +110,11 @@ body {
 
 #slider ul {
   display: none;
+  padding: 0;
+}
+
+#slider li {
+  list-style-type: none;
 }
 
 #slider img {
@@ -193,11 +198,11 @@ footer {
 
 footer a {
   color: #666666;
-  margin-right: 30px;
   text-decoration: none;
+  padding: 0 14px;
 }
 
-footer span[itemprop="email"] {
+footer span[itemprop=email] {
   text-transform: none;
 }
 
@@ -211,6 +216,10 @@ footer span[itemprop="email"] {
 
 footer hr {
   margin: 18px 0 0 0;
+}
+
+h1, h2, h3, a.email {
+  padding-left: 14px;
 }
 
 h1 {
@@ -236,10 +245,11 @@ h3 {
 
 a.resume, a.linkedin, a.twitter {
   float: right;
+  padding-left: 0;
 }
 
 a.linkedin, a.twitter {
-  margin: 15px 0 0 10px
+  margin-top: 15px;
 }
 
 i.sprite {

@@ -1,4 +1,4 @@
-$(function() {
+function initSlider() {
   $('section.content').hover(function() {
     $('.bx-prev, .bx-next').show();
   }, function() {
@@ -20,4 +20,16 @@ $(function() {
   });
 
   slider.show();
+}
+
+Modernizr.load({
+  test: Modernizr.mq('(max-width: 600px)'),
+  nope: 'js/jquery.bxslider.min.js',
+  complete: function() {
+    if ($.fn.bxSlider) {
+      $(initSlider);
+    } else {
+      $('#slider ul').show();
+    }
+  }
 });
