@@ -25,6 +25,10 @@
     margin-bottom: 10px;
   }
 
+  .slider-image, .slider-caption {
+    float: none;
+  }
+
   footer a {
     margin-right: 0;
     padding-left: 14px;
