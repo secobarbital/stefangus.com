@@ -122,23 +122,23 @@ body {
 }
 
 #slider img.slide {
-  height: 420px;
   width: 600px;
+  height: 420px;
 }
 
 #slider img.nextag-logo {
-  height: 49px;
   width: 170px;
+  height: 49px;
 }
 
 #slider img.wc-logo {
-  height: 75px;
   width: 200px;
+  height: 75px;
 }
 
 #slider img.wize-logo {
-  height: 46px;
   width: 98px;
+  height: 46px;
 }
 
 #slider h5, #slider p {
