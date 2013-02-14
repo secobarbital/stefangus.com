@@ -242,7 +242,11 @@ h3 {
   margin: 5px 0 0 0;
 }
 
-a.resume, a.linkedin, a.twitter {
+span.links {
+  display: inline;
+}
+
+span.links, a.linkedin, a.twitter {
   float: right;
   padding-left: 0;
 }
@@ -262,7 +266,7 @@ header a {
   text-decoration: none;
 }
 
-a.resume:hover {
+span.links a:hover {
   background-color: #27928f;
 }
 
