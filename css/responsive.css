@@ -64,7 +64,7 @@
     display: none;
   }
 
-  #slider, #slider ul {
+  #slider, #slider ul, a.linkedin, a.twitter {
     margin: 0;
   }
 
@@ -94,6 +94,11 @@
   footer a {
     margin-right: 0;
     padding-left: 14px;
+  }
+
+  .contact {
+    line-height: 38px;
+    text-align: left;
   }
 
   a.email {
