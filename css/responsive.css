@@ -60,22 +60,30 @@
     width: 600px;
   }
 
-  h2, h3, #slider p, .bx-controls-direction {
+  h2, h3, #slider p {
     display: none;
   }
 
-  #slider, #slider ul, a.linkedin, a.twitter {
+  a.linkedin, a.twitter {
     margin: 0;
   }
 
-  #slider li {
-    border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 30px;
+  footer a {
+    margin-right: 0;
+    padding-left: 14px;
   }
 
-  #slider img.slide, .slider-image {
-    height: auto;
-    width: 100%;
+  .links, .contact {
+    line-height: 38px;
+  }
+
+  a.email {
+    display: block;
+  }
+
+  h1 {
+    display: block;
+    margin: 0;
   }
 
   #slider h4 {
@@ -89,30 +97,31 @@
 
   .slider-image, .slider-caption {
     float: none;
-  }
-
-  footer a {
-    margin-right: 0;
-    padding-left: 14px;
-  }
-
-  .contact {
-    line-height: 38px;
-  }
-
-  a.email {
-    display: block;
-  }
-
-  h1 {
-    display: block;
-    margin: 0;
+    margin-top: 0;
   }
 }
 
 /* phone-portrait */
 @media (max-width: 600px) {
   .content {
+    width: 100%;
+  }
+
+  .bx-controls-direction {
+    display: none;
+  }
+
+  #slider, #slider ul {
+    margin: 0;
+  }
+
+  #slider li {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 30px 0;
+  }
+
+  #slider img.slide, .slider-image {
+    height: auto;
     width: 100%;
   }
 }

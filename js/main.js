@@ -23,7 +23,7 @@ function initSlider() {
 }
 
 Modernizr.load({
-  test: Modernizr.mq('(max-width: 768px)'),
+  test: Modernizr.mq('(max-width: 600px)'),
   nope: 'js/jquery.bxslider.min.js',
   complete: function() {
     if ($.fn.bxSlider) {
