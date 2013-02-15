@@ -207,6 +207,7 @@ footer span[itemprop=email] {
 
 .contact {
   line-height: 55px;
+  text-align: left;
 }
 
 .blog {
