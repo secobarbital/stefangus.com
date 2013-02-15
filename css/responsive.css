@@ -1,5 +1,5 @@
 /* tablet-landscape */
-@media (max-width: 960px) {
+@media (max-width: 959px) {
   html {
     min-width: 768px;
   }
@@ -51,7 +51,7 @@
 }
 
 /* phone-landscape/tablet-portrait */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   html {
     min-width: 0;
   }
@@ -97,7 +97,7 @@
 }
 
 /* phone-portrait */
-@media (max-width: 600px) {
+@media (max-width: 599px) {
   .content {
     width: 100%;
   }
